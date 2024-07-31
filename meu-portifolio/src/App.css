@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italiana&display=swap');
+
+body {
+  background-color: #030213;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:  #030213;
+  z-index: 1000; 
+  box-shadow: 0 3px 12px rgba(158, 0, 124, 0.301); 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-logo {
+  flex: 0.5;
+}
+
+.logo-img {
+  height: 90px;
+  border-radius: 20%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Menu hambúrguer */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+.menu-toggle.open div:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-toggle.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open div:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-links.show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #030213;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links.show a {
+  padding: 10px 20px;
+}
+
+.nav-links.show a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 110px; 
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px; 
+  margin: 20px auto;
+  max-width: 1200px; 
+}
+
+h1 {
+  font-family: 'Italiana', serif;
+  color: #0073a0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #004a68;
+  font-family: "Edu AU VIC WA NT Hand";
+  color: #0a0061;
+  font-size: 1.5em;
+}
+
+a {
+  font-family: 'Italiana', serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0073a0;
+}
+
+.titulo {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.imagem-container {
+  position: relative; 
+  border-radius: 5%;
+  width: 100%;
+}
+
+.img-avatar {
+  width: 100%;
+  height: 100%; 
+}
+
+.sobre-mim-texto {
+  padding: 20px;
+  background-color: #07032b; 
+  border-radius: 8px;
+}
+
+.sobre-mim-texto h2 {
+  color: #85008a;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.sobre-mim-texto p {
+  color: #ffffff;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.titulo-estudos h3 {
+  color: #890096;
+}
+
+.titulo-estudos {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.imag-estudos {
+  border-radius: 15%;
+}
+
+.linha-imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+
+.linha-imgs img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5%;
+}
+
+.linha-imgs img:hover {
+  transform: scale(1.1);
+}
+
+.img-conteudo {
+  width: 80px;
+  height: 80px;
+}
+
+.back {
+  text-align: justify;
+}
+
+.texto {
+  padding: 20px;
+  background-color: #b9b1ff; 
+  border-radius: 10px;
+}
+
+.estudos-texto {
+  color: #ffffff;
+}
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+  .nav-links {
+    gap: 40px;
+  }
+
+  .linha-imgs {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    gap: 20px;
+  }
+
+  .navbar-logo {
+    flex: 1;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .linha-imgs {
+    flex-direction: column;
+  }
+
+  .linha-imgs img {
+    width: 60px;
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2, h3 {
+    font-size: 1.2em;
+  }
+
+  .sobre-mim-texto h2 {
+    font-size: 1.5em;
+  }
+
+  .sobre-mim-texto p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 772px) {
+  .logo-img {
+    height: 60px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .linha-imgs img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .titulo-estudos {
+    font-size: 18px;
+  }
+
+  .sobre-mim-texto {
+    padding: 15px;
+  }
+
+  .sobre-mim-texto h2 {
+    font-size: 1.2em;
+  }
+
+  .sobre-mim-texto p {
+    font-size: 0.9em;
+  }
+
+  /* Menu hambúrguer */
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-links {
+    gap: 5px;
+  }
+
+  .linha-imgs {
+    margin: 20px;
+  }
+
+  .linha-imgs img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .titulo-estudos {
+    font-size: 16px;
+  }
+
+  .sobre-mim-texto {
+    padding: 10px;
+  }
+
+  .sobre-mim-texto h2 {
+    font-size: 1em;
+  }
+
+  .sobre-mim-texto p {
+    font-size: 0.8em;
+  }
+}
