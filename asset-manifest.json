@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.feb69a49.css",
-    "main.js": "/static/js/main.25a82da8.js",
-    "static/js/453.6c02d200.chunk.js": "/static/js/453.6c02d200.chunk.js",
-    "static/media/estudando.jpg": "/static/media/estudando.270bd25b996e28311967.jpg",
-    "static/media/decodificador.png": "/static/media/decodificador.3be66744f10caadb662f.png",
-    "static/media/designer.jpg": "/static/media/designer.b1305c3e634baf95c322.jpg",
-    "static/media/padaria.png": "/static/media/padaria.4b97092c5c0d9c9ab131.png",
-    "static/media/alura.png": "/static/media/alura.fee3471520b1f02b59b0.png",
-    "static/media/gerenciamento.jpeg": "/static/media/gerenciamento.10e5fe3386c979cb1c31.jpeg",
-    "static/media/cadastro.jpeg": "/static/media/cadastro.02390ee46df2f7ee797f.jpeg",
-    "static/media/logo.jpeg": "/static/media/logo.1eeb02bdb2b8f0b0ed7a.jpeg",
-    "static/media/login.jpeg": "/static/media/login.ce33bcb18fa8b081bca6.jpeg",
-    "static/media/pdv.png": "/static/media/pdv.071499b4f0d96e686066.png",
-    "static/media/site.png": "/static/media/site.425e5c5019040f8be854.png",
-    "index.html": "/index.html",
-    "main.feb69a49.css.map": "/static/css/main.feb69a49.css.map",
-    "main.25a82da8.js.map": "/static/js/main.25a82da8.js.map",
-    "453.6c02d200.chunk.js.map": "/static/js/453.6c02d200.chunk.js.map"
+    "main.css": "/Portfolio_Kleuvyn/static/css/main.feb69a49.css",
+    "main.js": "/Portfolio_Kleuvyn/static/js/main.27e01fe3.js",
+    "static/js/453.6c02d200.chunk.js": "/Portfolio_Kleuvyn/static/js/453.6c02d200.chunk.js",
+    "static/media/estudando.jpg": "/Portfolio_Kleuvyn/static/media/estudando.270bd25b996e28311967.jpg",
+    "static/media/decodificador.png": "/Portfolio_Kleuvyn/static/media/decodificador.3be66744f10caadb662f.png",
+    "static/media/designer.jpg": "/Portfolio_Kleuvyn/static/media/designer.b1305c3e634baf95c322.jpg",
+    "static/media/padaria.png": "/Portfolio_Kleuvyn/static/media/padaria.4b97092c5c0d9c9ab131.png",
+    "static/media/alura.png": "/Portfolio_Kleuvyn/static/media/alura.fee3471520b1f02b59b0.png",
+    "static/media/gerenciamento.jpeg": "/Portfolio_Kleuvyn/static/media/gerenciamento.10e5fe3386c979cb1c31.jpeg",
+    "static/media/cadastro.jpeg": "/Portfolio_Kleuvyn/static/media/cadastro.02390ee46df2f7ee797f.jpeg",
+    "static/media/logo.jpeg": "/Portfolio_Kleuvyn/static/media/logo.1eeb02bdb2b8f0b0ed7a.jpeg",
+    "static/media/login.jpeg": "/Portfolio_Kleuvyn/static/media/login.ce33bcb18fa8b081bca6.jpeg",
+    "static/media/pdv.png": "/Portfolio_Kleuvyn/static/media/pdv.071499b4f0d96e686066.png",
+    "static/media/site.png": "/Portfolio_Kleuvyn/static/media/site.425e5c5019040f8be854.png",
+    "index.html": "/Portfolio_Kleuvyn/index.html",
+    "main.feb69a49.css.map": "/Portfolio_Kleuvyn/static/css/main.feb69a49.css.map",
+    "main.27e01fe3.js.map": "/Portfolio_Kleuvyn/static/js/main.27e01fe3.js.map",
+    "453.6c02d200.chunk.js.map": "/Portfolio_Kleuvyn/static/js/453.6c02d200.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.feb69a49.css",
-    "static/js/main.25a82da8.js"
+    "static/js/main.27e01fe3.js"
   ]
 }
