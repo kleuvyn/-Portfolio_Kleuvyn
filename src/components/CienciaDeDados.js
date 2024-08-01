@@ -2,7 +2,7 @@ import React from 'react';
 
 function CienciaDeDados() {
   return (
-    <section className="texto">
+    <section className="texto conteudo">
       <h2>      
         Ciência de Dados com Python
       </h2>

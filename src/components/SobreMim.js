@@ -3,7 +3,7 @@ import designer from '../assets/designer.jpg';
 
 function SobreMim() {
     return (
-      <section>
+      <section className='conteudo'>
         <div className="imagem-container">
           <img src={designer} alt="Avatar" style={{ width: '100%', height: '450px', borderRadius: '1%' }} />
         </div>

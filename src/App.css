@@ -66,12 +66,13 @@ nav {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  margin: 20px;
 }
 
 .menu-toggle div {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: rgba(151, 4, 180, 0.815);
   margin: 3px 0;
   transition: 0.3s;
 }
@@ -234,15 +235,19 @@ a {
 
 @media (max-width: 1200px) {
   .nav-links {
-    gap: 40px;
+    gap: 30px;
   }
-
+ 
   .linha-imgs {
-    margin: 30px;
+    margin: 0px;
   }
 }
 
-@media (max-width: 992px) {
+
+@media (max-width: 990px) {
+  .conteudo {
+    margin: 200px 20px 0 20px;
+  }
   .nav-links {
     gap: 20px;
   }
@@ -288,7 +293,10 @@ a {
   }
 }
 
-@media (max-width: 772px) {
+@media (max-width: 770px) {
+  .conteudo {
+    margin: 200px 20px 0 20px;
+  }
   .logo-img {
     height: 60px;
   }
@@ -339,7 +347,10 @@ a {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 570px) {
+  .conteudo {
+    margin: 200px 20px 0 20px;
+  }
   .nav-links {
     gap: 5px;
   }

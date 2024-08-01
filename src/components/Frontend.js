@@ -9,7 +9,7 @@ import Cadastro from '../assets/cadastro.jpeg';
 
 function Frontend() {
     return (
-      <section>
+      <section className='conteudo'>
         <h2>Desenvolvimento de Frontend</h2>
         <p>
           Estou imersa no mundo do desenvolvimento de frontend, empenhando-me em aprofundar meu conhecimento e habilidades nessa área. Trabalhando com tecnologias como HTML, CSS, JavaScript, e outras, estou focada em criar interfaces de usuário atraentes, responsivas e de alta qualidade. Estou constantemente explorando novos frameworks e bibliotecas para melhorar minhas habilidades e oferecer experiências excepcionais aos usuários.

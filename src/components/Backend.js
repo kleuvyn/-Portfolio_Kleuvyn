@@ -6,7 +6,7 @@ import Gerenciamento from '../assets/gerenciamento.jpeg'
 
 function Backend() {
     return (
-      <section className='back' >
+      <section className='back conteudo' >
         <h1>
           Backend Development
         </h1>

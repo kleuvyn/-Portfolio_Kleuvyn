@@ -1,16 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
-import logo from '../assets/logo.jpeg'; 
-
-
+import logo from '../assets/logo.jpeg';
 
 function Footer() {
   return (
     <section className="footer">
       <footer className="footer-conteudo">
-        <a href="index.html">
+        <Link to="/">
           <img src={logo} alt="Logo" className="logo-img" />
-        </a>
+        </Link>
         <p>
           Em um mundo de bits e códigos,
           <br />
@@ -25,9 +24,9 @@ function Footer() {
           <a className="img-footer" href="https://www.linkedin.com/in/beatryz-kleuvyn-467a23198/">
             <img className="img-footer" src="https://img.icons8.com/ios/50/ffffff/linkedin.png" alt="LinkedIn Kleuvyn" />
           </a>
-          <a className="img-footer" href="contato.html">
+          <Link className="img-footer" to="/contatos">
             <img className="img-footer" src="https://img.icons8.com/ios/50/ffffff/email.png" alt="Contato" />
-          </a>
+          </Link>
         </div>
         <p>&copy; 2024 Kleuvyn</p>
       </footer>
@@ -36,3 +35,4 @@ function Footer() {
 }
 
 export default Footer;
+

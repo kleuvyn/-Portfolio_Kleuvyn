@@ -4,7 +4,7 @@ import estudando from '../assets/estudando.jpg';
 
 function Estudos() {
   return (
-      <section>
+      <section className='conteudo'>
         <div className='titulo-estudos sobre-mim-texto'>
           <br></br>
           <br></br>
