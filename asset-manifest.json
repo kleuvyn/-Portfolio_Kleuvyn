@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_Kleuvyn/static/css/main.feb69a49.css",
-    "main.js": "/Portfolio_Kleuvyn/static/js/main.27e01fe3.js",
+    "main.css": "/Portfolio_Kleuvyn/static/css/main.6e146390.css",
+    "main.js": "/Portfolio_Kleuvyn/static/js/main.73f2ebfb.js",
     "static/js/453.6c02d200.chunk.js": "/Portfolio_Kleuvyn/static/js/453.6c02d200.chunk.js",
     "static/media/estudando.jpg": "/Portfolio_Kleuvyn/static/media/estudando.270bd25b996e28311967.jpg",
     "static/media/decodificador.png": "/Portfolio_Kleuvyn/static/media/decodificador.3be66744f10caadb662f.png",
@@ -15,12 +15,12 @@
     "static/media/pdv.png": "/Portfolio_Kleuvyn/static/media/pdv.071499b4f0d96e686066.png",
     "static/media/site.png": "/Portfolio_Kleuvyn/static/media/site.425e5c5019040f8be854.png",
     "index.html": "/Portfolio_Kleuvyn/index.html",
-    "main.feb69a49.css.map": "/Portfolio_Kleuvyn/static/css/main.feb69a49.css.map",
-    "main.27e01fe3.js.map": "/Portfolio_Kleuvyn/static/js/main.27e01fe3.js.map",
+    "main.6e146390.css.map": "/Portfolio_Kleuvyn/static/css/main.6e146390.css.map",
+    "main.73f2ebfb.js.map": "/Portfolio_Kleuvyn/static/js/main.73f2ebfb.js.map",
     "453.6c02d200.chunk.js.map": "/Portfolio_Kleuvyn/static/js/453.6c02d200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb69a49.css",
-    "static/js/main.27e01fe3.js"
+    "static/css/main.6e146390.css",
+    "static/js/main.73f2ebfb.js"
   ]
 }
